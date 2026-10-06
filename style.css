@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f5ed;
+    color: #111;
+}
+
+
+/* =========================
+   MENU LATERAL
+========================= */
+
+.menu-lateral {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 77px;
+    height: 100vh;
+
+    background-color: #b6d9b2;
+
+    border-right: 2px solid #222;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 70px;
+    height: 120px;
+
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+}
+
+.logo strong {
+    font-size: 25px;
+    color: #54a52f;
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+
+/* ÍCONES DO MENU */
+
+nav {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: #111;
+
+    font-size: 35px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================
+   CONTEÚDO
+========================= */
+
+main {
+    margin-left: 77px;
+    padding: 20px 30px;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+header {
+    height: 90px;
+
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/* PESQUISA */
+
+.pesquisa {
+    width: 340px;
+    height: 57px;
+
+    border: 2px solid #222;
+
+    border-radius: 35px;
+
+    background-color: #e7f5ed;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+
+    font-size: 28px;
+}
+
+.pesquisa input {
+    width: 250px;
+
+    margin-left: 15px;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    font-size: 20px;
+}
+
+
+/* USUÁRIO */
+
+.usuario {
+    width: 55px;
+    height: 55px;
+
+    border: 2px solid #555;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 35px;
+
+    color: #555;
+}
+
+
+/* =========================
+   BOAS-VINDAS
+========================= */
+
+.boas-vindas {
+    width: 775px;
+    height: 138px;
+
+    background-color: #d0f0ce;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 25px;
+
+    margin-bottom: 38px;
+}
+
+.boas-vindas h1 {
+    font-family: cursive;
+
+    font-size: 58px;
+
+    margin-bottom: 5px;
+}
+
+.boas-vindas p {
+    font-size: 19px;
+
+    text-align: center;
+}
+
+
+/* AVISO */
+
+.aviso {
+    background-color: #f8e5b5;
+
+    padding: 22px;
+
+    text-align: center;
+
+    transform: rotate(-3deg);
+
+    font-size: 17px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: flex;
+
+    gap: 110px;
+
+    align-items: flex-start;
+}
+
+
+/* CARD GERAL */
+
+.card {
+    background-color: white;
+
+    border-radius: 35px;
+
+    padding: 18px 10px;
+
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+
+/* TÍTULOS */
+
+.card h2 {
+    font-size: 19px;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+
+/* =========================
+   COMPROMISSOS
+========================= */
+
+.compromissos {
+    width: 310px;
+    min-height: 390px;
+}
+
+.data {
+    background-color: #dff3e8;
+
+    border-radius: 20px;
+
+    padding: 6px;
+
+    text-align: center;
+
+    margin-bottom: 18px;
+}
+
+
+.atividade {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 7px 10px;
+
+    margin-bottom: 4px;
+
+    font-size: 16px;
+}
+
+
+.destaque {
+    background-color: #ef8888;
+
+    border-radius: 15px;
+}
+
+
+/* =========================
+   BOLINHAS
+========================= */
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+.verde {
+    background-color: #9bd69a;
+}
+
+.vermelho {
+    background-color: #cc3028;
+}
+
+.azul {
+    background-color: #477bd4;
+}
+
+.laranja {
+    background-color: #ff7b35;
+}
+
+.roxo {
+    background-color: #bea4f5;
+}
+
+
+/* =========================
+   ESTUDOS
+========================= */
+
+.estudos {
+    width: 310px;
+
+    min-height: 290px;
+
+    padding: 20px 25px;
+}
+
+.materia {
+    display: flex;
+
+    gap: 15px;
+
+    margin: 25px 0;
+}
+
+.materia strong {
+    font-size: 16px;
+}
+
+.materia p {
+    margin-top: 5px;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   FEEDBACK
+========================= */
+
+.feedback {
+    width: 310px;
+
+    min-height: 390px;
+
+    padding: 20px 18px;
+}
+
+.feedback label {
+    display: block;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    margin: 18px 0 8px;
+}
+
+.feedback textarea {
+    width: 100%;
+
+    height: 105px;
+
+    resize: none;
+
+    border: none;
+
+    outline: none;
+
+    background-color: #e3f4eb;
+
+    border-radius: 30px;
+
+    padding: 15px;
+
+    font-size: 15px;
+}
